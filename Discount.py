@@ -8,6 +8,6 @@ net_price = Discount_price - vat
 st.header(f"• ส่วนลดลด{Discount_per:.2f}: {price*(Discount_per/100)} บาท")
 st.header(f"• ส่วนลดลดได้: {Discount_price:.2f} บาท")
 st.header(f"• ภาษีมูลค่าเพิ่ม (VAT 7%): **{vat:.2f}** บาท")
-st.header(f"• ราคาสุทธิ: {net_price:.2f} บาท")
+st.title(f"• ราคาสุทธิ: {net_price:.2f} บาท")
 
 st.write("นายธีรภัทร มุลิลา 42 ม.4/5")
