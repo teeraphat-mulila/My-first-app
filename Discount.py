@@ -5,7 +5,7 @@ Discount_per = st.number_input("กรอกส่วนสินค้า (%):"
 Discount_price =price - (price*(Discount_per/100))
 vat = Discount_price * 0.07
 net_price = Discount_price - vat
-st.header(f"• ส่วนลดลด: {Discount_per:.2f} %")
+st.header(f"• ส่วนลดลด:(Discount_per:.2f)",": {price*(Discount_per/100)} %")
 st.header(f"• ส่วนลดลดได้: {Discount_price:.2f} บาท")
 st.header(f"• ภาษีมูลค่าเพิ่ม (VAT 7%): **{vat:.2f}** บาท")
 st.header(f"• ราคาสุทธิ: {net_price:.2f} บาท")
